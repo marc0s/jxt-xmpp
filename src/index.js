@@ -20,6 +20,7 @@ import Framing from './framing';
 import GeoLoc from './geoloc';
 import Hash from './hash';
 import Hats from './hats';
+import Hints from './hints';
 import UDP from './iceUdp';
 import IBB from './ibb';
 import IQ from './iq';
@@ -88,6 +89,7 @@ export default function (JXT) {
     JXT.use(GeoLoc);
     JXT.use(Hash);
     JXT.use(Hats);
+	JXT.use(Hints);
     JXT.use(UDP);
     JXT.use(IBB);
     JXT.use(IQ);
